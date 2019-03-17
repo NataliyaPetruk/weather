@@ -14,7 +14,7 @@ ul {
   margin-left: 200px;
   margin-right: 200px;
   font-size: 0;
-  transition: all .1s ease-in;
+  box-sizing: border-box;
 }
 
 .list__item__li {
@@ -92,4 +92,20 @@ ul {
   width: 100%;
   background-color: #666699;
   font-size: 20px;
+}
+
+.degree {
+  opacity: 0.7;
+  font-family: "Lucida Sans Unicode";
+}
+
+i {
+  font-size: 25px;
+}
+
+ul:hover li{
+  opacity:0.7;
+}
+ul li:hover{
+  opacity:1;
 }
