@@ -11,10 +11,11 @@ ul {
   font-family: "Lucida Grande", sans-serif;
   color: white;
   text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
   font-size: 0;
   box-sizing: border-box;
+  border: 3px white solid;
+  margin: 0;
+  padding: 0;
 }
 
 .list__item__li {
@@ -22,6 +23,9 @@ ul {
   width: 50%;
   background-color: #3399cc;
   font-size: 20px;
+  border: 3px white solid;
+  margin: 0;
+  padding: 0;
 }
 
 .list__item__pa {
@@ -29,6 +33,9 @@ ul {
   width: 25%;
   background-color: #33cccc;
   font-size: 20px;
+  border: 3px white solid;
+  margin: 0;
+  padding: 0;
 }
 
 .list__item__bel {
@@ -36,6 +43,9 @@ ul {
   width: 25%;
   background-color: #996699;
   font-size: 20px;
+  border: 3px white solid;
+  margin: 0;
+  padding: 0;
 }
 
 .list__item__mos {
@@ -43,6 +53,9 @@ ul {
   width: 25%;
   background-color: #c24747;
   font-size: 20px;
+  border: 3px white solid;
+  margin: 0;
+  padding: 0;
 }
 
 .list__item__tel {
@@ -50,6 +63,9 @@ ul {
   width: 25%;
   background-color: #e2674a;
   font-size: 20px;
+  border: 3px white solid;
+  margin: 0;
+  padding: 0;
 }
 
 .list__item__ca {
@@ -57,6 +73,9 @@ ul {
   width: 25%;
   background-color: #ffcc66;
   font-size: 20px;
+  border: 3px white solid;
+  margin: 0;
+  padding: 0;
 }
 
 .list__item__ny {
@@ -64,6 +83,9 @@ ul {
   width: 25%;
   background-color: #99cc99;
   font-size: 20px;
+  border: 3px white solid;
+  margin: 0;
+  padding: 0;
 }
 
 .list__item__nd {
@@ -71,6 +93,9 @@ ul {
   width: 25%;
   background-color: #669999;
   font-size: 20px;
+  border: 3px white solid;
+  margin: 0;
+  padding: 0;
 }
 
 .list__item__san {
@@ -78,6 +103,9 @@ ul {
   width: 50%;
   background-color: #cc6699;
   font-size: 20px;
+  border: 3px white solid;
+  margin: 0;
+  padding: 0;
 }
 
 .list__item__tok {
@@ -85,6 +113,9 @@ ul {
   width: 25%;
   background-color: #339966;
   font-size: 20px;
+  border: 3px white solid;
+  margin: 0;
+  padding: 0;
 }
 
 .list__item__syd {
@@ -92,6 +123,9 @@ ul {
   width: 100%;
   background-color: #666699;
   font-size: 20px;
+  border: 3px white solid;
+  margin: 0;
+  padding: 0;
 }
 
 .degree {
@@ -101,10 +135,6 @@ ul {
 
 i {
   font-size: 25px;
-}
-
-li {
-  border: 3px white solid;
 }
 
 ul:hover li{
