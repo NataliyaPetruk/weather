@@ -4,6 +4,7 @@ body {
 
 ul {
   padding: 0;
+  margin: 0;
 }
 
 .ul__container {
@@ -13,117 +14,115 @@ ul {
   text-align: center;
   font-size: 0;
   box-sizing: border-box;
-  border: 3px white solid;
-  margin: 0;
-  padding: 0;
+  border: 3px solid white;
 }
 
 .list__item__li {
   display: inline-block;
-  width: 50%;
+  width: 48.5%;
   background-color: #3399cc;
   font-size: 20px;
-  border: 3px white solid;
+  border: 3px solid white;
   margin: 0;
   padding: 0;
 }
 
 .list__item__pa {
   display: inline-block;
-  width: 25%;
+  width: 24%;
   background-color: #33cccc;
   font-size: 20px;
-  border: 3px white solid;
+  border: 3px solid white;
   margin: 0;
   padding: 0;
 }
 
 .list__item__bel {
   display: inline-block;
-  width: 25%;
+  width: 24%;
   background-color: #996699;
   font-size: 20px;
-  border: 3px white solid;
+  border: 3px solid white;
   margin: 0;
   padding: 0;
 }
 
 .list__item__mos {
   display: inline-block;
-  width: 25%;
+  width: 24%;
   background-color: #c24747;
   font-size: 20px;
-  border: 3px white solid;
+  border: 3px solid white;
   margin: 0;
   padding: 0;
 }
 
 .list__item__tel {
   display: inline-block;
-  width: 25%;
+  width: 24%;
   background-color: #e2674a;
   font-size: 20px;
-  border: 3px white solid;
+  border: 3px solid white;
   margin: 0;
   padding: 0;
 }
 
 .list__item__ca {
   display: inline-block;
-  width: 25%;
+  width: 24%;
   background-color: #ffcc66;
   font-size: 20px;
-  border: 3px white solid;
+  border: 3px solid white;
   margin: 0;
   padding: 0;
 }
 
 .list__item__ny {
   display: inline-block;
-  width: 25%;
+  width: 24%;
   background-color: #99cc99;
   font-size: 20px;
-  border: 3px white solid;
+  border: 3px solid white;
   margin: 0;
   padding: 0;
 }
 
 .list__item__nd {
   display: inline-block;
-  width: 25%;
+  width: 24%;
   background-color: #669999;
   font-size: 20px;
-  border: 3px white solid;
+  border: 3px solid white;
   margin: 0;
   padding: 0;
 }
 
 .list__item__san {
   display: inline-block;
-  width: 50%;
+  width: 48.5%;
   background-color: #cc6699;
   font-size: 20px;
-  border: 3px white solid;
+  border: 3px solid white;
   margin: 0;
   padding: 0;
 }
 
 .list__item__tok {
   display: inline-block;
-  width: 25%;
+  width: 24%;
   background-color: #339966;
   font-size: 20px;
-  border: 3px white solid;
+  border: 3px solid white;
   margin: 0;
   padding: 0;
 }
 
 .list__item__syd {
   display: inline-block;
-  width: 100%;
+  width: 97.3%;
   background-color: #666699;
   font-size: 20px;
-  border: 3px white solid;
+  border: 3px solid white;
   margin: 0;
   padding: 0;
 }
@@ -136,10 +135,15 @@ ul {
 i {
   font-size: 25px;
 }
-
+/*
 ul:hover li{
   opacity:0.7;
 }
 ul li:hover{
   opacity:1;
+}
+*/
+
+ul:hover li:not(:hover)  {
+  opacity: 0.6;
 }
