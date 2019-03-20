@@ -1,0 +1,108 @@
+body {
+  background-color: #2b81ac;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #3399cc;
+  margin: 15px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.caption {
+  font-family: "Lucida Sans Unicode";
+  font-size: 30px;
+  color: white;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  font-size: 0;
+  border: 3px solid white;
+}
+
+li {
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Lucida Grande", sans-serif;
+  color: white;
+  border: 3px solid white;
+}
+
+
+.w__li {
+  width: 50%;
+  background-color: #3399cc;
+}
+
+.w__pa {
+  width: 25%;
+  background-color: #33cccc;
+}
+
+.w__bel {
+  width: 25%;
+  background-color: #996699;
+}
+
+.w__mos {
+  width: 25%;
+  background-color: #c24747;
+}
+
+.w__tel {
+  width: 25%;
+  background-color: #e2674a;
+}
+
+.w__ca {
+  width: 25%;
+  background-color: #ffcc66;
+}
+
+.w__ny {
+  width: 25%;
+  background-color: #99cc99;
+}
+
+.w__nd {
+  width: 25%;
+  background-color: #669999;
+}
+
+.w__san {
+  width: 50%;
+  background-color: #cc6699;
+}
+
+.w__tok {
+  width: 25%;
+  background-color: #339966;
+}
+
+.w__syd {
+  width: 100%;
+  background-color: #666699;
+}
+
+.degree {
+  opacity: 0.7;
+  font-family: "Lucida Sans Unicode";
+}
+
+.wish {
+  font-family: "Lucida Sans Unicode";
+  font-size: 20px;
+  color: white;
+}
+
+ul:hover li:not(:hover)  {
+  opacity: 0.6;
+}
